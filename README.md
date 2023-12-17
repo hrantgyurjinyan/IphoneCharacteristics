@@ -82,11 +82,11 @@ This project provides a program for analyzing iPhone sales data and calculating 
    ```bash
    git clone https://github.com/your-username/iphone-profitability-calculator.git
    cd iphone-profitability-calculator
-Compile the program:
-
+2. Compile the program:
 bash
 Copy code
-make
+cmake ..
+cmake --build .
 Usage
 Run the program with a CSV file containing iPhone data as a command-line argument:
 

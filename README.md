@@ -44,19 +44,19 @@ This project provides a program for analyzing iPhone sales data and calculating 
   ./Iphone_Statistics ../data.csv
 
 ## Algorithms
-The project includes several algorithms for calculating profitability:
+- The project includes several algorithms for calculating profitability:
 
-most_profitable_of_whole: Calculates the most profitable phone over the entire period.
-most_profitable_of_first_year: Calculates the most profitable phone based on first-year sales.
-most_money_spent: Calculates the phone with the highest cost.
-most_sold_of_whole_time: Calculates the phone with the highest sales.
+- most_profitable_of_whole: Calculates the most profitable phone over the entire period.
+- most_profitable_of_first_year: Calculates the most profitable phone based on first-year sales.
+- most_money_spent: Calculates the phone with the highest cost.
+- most_sold_of_whole_time: Calculates the phone with the highest sales.
 
 ## File Formats
-CSV File
-The CSV file should follow the format:
-phone_model,starting_price,production_year,sale_first_year,sales_whole_time,bill_of_materials,price_inflation,bill_of_materials_inflation
+- CSV File
+- The CSV file should follow the format:
+- phone_model,starting_price,production_year,sale_first_year,sales_whole_time,bill_of_materials,price_inflation,bill_of_materials_inflation
 iPhone X,999,2017,500000,1000000,400,5,2
 ...
 ## Contributing
-Feel free to contribute by opening issues or submitting pull requests. Please follow the code of conduct.
+- Feel free to contribute by opening issues or submitting pull requests. Please follow the code of conduct.
 

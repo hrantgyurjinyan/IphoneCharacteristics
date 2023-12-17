@@ -39,8 +39,8 @@ This project provides a program for analyzing iPhone sales data and calculating 
   cmake --build .
 ```
 3. Usage
-  ./Iphone_Statistics ../data.csv
-
+   ```bash
+  ./Iphone_Statistics ../data.csv```
 ###
 ## Algorithms
 - The project includes several algorithms for calculating profitability:

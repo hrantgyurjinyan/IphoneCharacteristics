@@ -39,7 +39,8 @@ This project provides a program for analyzing iPhone sales data and calculating 
 
 3. Usage
 Run the program with a CSV file containing iPhone data as a command-line argument:
-```./iphone_calculator your_file.csv
+```bash
+    ./iphone_calculator your_file.csv
 
 Follow the on-screen prompts to choose a calculation option.
 

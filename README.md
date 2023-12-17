@@ -12,6 +12,7 @@ This project provides a program for analyzing iPhone sales data and calculating 
 - [Algorithms](#algorithms)
 - [File Formats](#file-formats)
 - [Contributing](#contributing)
+- [License](#license)
 
 ## Features
 
@@ -33,14 +34,29 @@ This project provides a program for analyzing iPhone sales data and calculating 
    git clone https://github.com/your-username/iphone-profitability-calculator.git
    cd iphone-profitability-calculator
 2. Compile the program:
-```bash
-   cmake ..
-   cmake --build .
-
+   
+  ```bash
+  cmake ..
+  cmake --build .
 3. Usage
-Run the program with a CSV file containing iPhone data as a command-line argument:
-```bash
-    ./iphone_calculator your_file.csv
 
-Follow the on-screen prompts to choose a calculation option.
+  ```bash
+  ./Iphone_Statistics ../data.csv
+
+## Algorithms
+The project includes several algorithms for calculating profitability:
+
+most_profitable_of_whole: Calculates the most profitable phone over the entire period.
+most_profitable_of_first_year: Calculates the most profitable phone based on first-year sales.
+most_money_spent: Calculates the phone with the highest cost.
+most_sold_of_whole_time: Calculates the phone with the highest sales.
+
+## File Formats
+CSV File
+The CSV file should follow the format:
+phone_model,starting_price,production_year,sale_first_year,sales_whole_time,bill_of_materials,price_inflation,bill_of_materials_inflation
+iPhone X,999,2017,500000,1000000,400,5,2
+...
+## Contributing
+Feel free to contribute by opening issues or submitting pull requests. Please follow the code of conduct.
 

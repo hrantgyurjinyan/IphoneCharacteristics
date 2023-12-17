@@ -34,7 +34,7 @@ This project provides a program for analyzing iPhone sales data and calculating 
    cd iphone-profitability-calculator
 2. Compile the program:
 ```cmake ..
-```cmake --build .
+cmake --build .
 
 3. Usage
 Run the program with a CSV file containing iPhone data as a command-line argument:

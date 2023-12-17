@@ -41,7 +41,7 @@ This project provides a program for analyzing iPhone sales data and calculating 
 3. Usage
    ```bash
   ./Iphone_Statistics ../data.csv
-###
+``
 ## Algorithms
 - The project includes several algorithms for calculating profitability:
 

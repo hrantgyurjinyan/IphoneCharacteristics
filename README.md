@@ -33,12 +33,12 @@ This project provides a program for analyzing iPhone sales data and calculating 
    git clone https://github.com/your-username/iphone-profitability-calculator.git
    cd iphone-profitability-calculator
 2. Compile the program:
-cmake ..
-cmake --build .
+```cmake ..
+```cmake --build .
 
 3. Usage
 Run the program with a CSV file containing iPhone data as a command-line argument:
-./iphone_calculator your_file.csv
+```./iphone_calculator your_file.csv
 
 Follow the on-screen prompts to choose a calculation option.
 

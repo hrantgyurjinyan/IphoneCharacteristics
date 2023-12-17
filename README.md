@@ -12,7 +12,6 @@ This project provides a program for analyzing iPhone sales data and calculating 
 - [Algorithms](#algorithms)
 - [File Formats](#file-formats)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 

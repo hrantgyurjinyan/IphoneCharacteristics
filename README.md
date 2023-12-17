@@ -38,8 +38,8 @@ This project provides a program for analyzing iPhone sales data and calculating 
   cmake ..
   cmake --build .
 
-3. Usage
   ```bash
+3. Usage
   ./Iphone_Statistics ../data.csv
 ```
 ###

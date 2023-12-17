@@ -96,7 +96,7 @@ Copy code
 ./iphone_calculator your_file.csv
 Follow the on-screen prompts to choose a calculation option.
 
-Algorithms
+### Algorithms
 
 The project includes several algorithms for calculating profitability:
 
@@ -105,13 +105,13 @@ most_profitable_of_first_year: Calculates the most profitable phone based on fir
 most_money_spent: Calculates the phone with the highest cost.
 most_sold_of_whole_time: Calculates the phone with the highest sales.
 
-File Formats
+### File Formats
 CSV File
 The CSV file should follow the format:
 phone_model,starting_price,production_year,sale_first_year,sales_whole_time,bill_of_materials,price_inflation,bill_of_materials_inflation
 iPhone X,999,2017,500000,1000000,400,5,2
 ...
-Contributing
+### Contributing
 Feel free to contribute by opening issues or submitting pull requests. Please follow the code of conduct.
 
 
